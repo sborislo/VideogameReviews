@@ -1,0 +1,57 @@
+Pitch Your Project
+In the three cells immediately following, describe WHAT you are planning to analyze for your final project (i.e., texts, contexts
+and the social game, world and actors you intend to learn about through your analysis) (<200 words), WHY you are going to do it 
+(i.e., why would theory and/or the average person benefit from knowing the results of your investigation) (<200 words), and HOW you plan
+ to investigate it (i.e., what are the approaches and operations you plan to perform, in sequence, to yield this insight) (<400 words).
+
+What?
+I plan to analyze reviews on Steam (store.steampowered.com) to learn about game consumers' attitudes in this large online marketplace, 
+as well as the games that they are reviewing. I intend to generalize this analysis to the online game market in general, and analyze 
+components of the game market (e.g., different genres of games, different developers, and so on). The reviews and games will be selected 
+pseudo-randomly, such that the analysis isn't biased but is feasible (not, for instance, sampling games with fewer than ten reviews). 
+I will primarily focus on relevant reviews (i.e., not those containing content irrelevant to the game in question). Further specification 
+regarding the types of reviews and games are admittedly still a work in progress.
+
+Why?
+The benefits would be pretty atheoretical, though suggestions for the generality of various marketing theories might be posed as a result
+of the analyses. For the most part, the benefits would be to developers of games and game consumers, dealing with the kinds of impacts 
+of game reviews on the potential development of games. For instance, if consumers generally leave one type of review (say, technical 
+reviews) on one genre of game (say, first-person shooters), then it is plausible that developers in this space would focus more on 
+technical details of their games (rather than developing other things, like expanding the amount of content). That, or certain kinds 
+of consumers are drawn to certain genres of games (in this example, those who appreciate technical details over content), in which case 
+the focus on certain details would be wise. At the very least, my findings would provide valuable suggestions to guide research on 
+incentives in the online game market, to better understand developers' and consumers' decisions.
+
+How?
+This is also a work-in-progress. I think I'd start with analyzing game reviews in general, to gauge the most common content irrespective 
+of other factors (like game genre). This would set a baseline to compare against. Then, I would subset by game genre and do the same 
+general analysis (then repeat with game popularity). In all cases, the analyses would be generating WordClouds, word frequencies of 
+keywords (for answering my questions, things like "content" and "frames") as well as the most frequent words, bigrams to disembiguate word
+frequency results, kmeans clustering (with labels), sentiment scores, and parse trees (to gauge review complexity). I would also look at
+topic models (basically, trees) of different review content to analyze (at least qualitatively) the centrality of various review content
+for different games. Next, I would analyze differences between types of games (based on genre/popularity) based on KL divergence and MDS
+visualization. Although not central, I would also like to do dynamic modeling, looking at how reviews differ over time or, perhaps more
+relevantly, how differences between games differ over time. Based on the results of these analyses, I will either refine them (such that
+they are clearer or more focused on answering questions), discard them (for being more-or-less useless), or add in new corpora (e.g.,
+steamcharts.com data for player counts at different time points, or the GameDeals subreddit to gather time points for price promotions, 
+to see how they affect the number of reviews and review quality/content, in line with my original research topic). Yucan also reached out 
+to work with me, so it'd be up to what he wants to look at too.
+
+Pitch Your Sample
+In the cell immediately following, describe the rationale behind your proposed sample design for your final project. What is the social 
+game, social work, or social actors you about whom you are seeking to make inferences? What are its virtues with respect to your research 
+questions? What are its limitations? What are alternatives? What would be a reasonable path to "scale up" your sample for further analysis
+(i.e., high-profile publication) beyond this class? (<300 words).
+
+Which (words)?
+Steam is the largest online game retailer, so using their data makes sense for generalization and getting maximal data (so my assumptions
+can be weaker, in accordance with the readings/lecture). However, Epic Games is another online game retailer with more systematic and 
+clear-cut free price promotions (if I care about that), making it a great alternative to Steam data if need be. In fact, forming a theory 
+based on the Steam data and checking its robustness with the Epic Games market would help with scaling up. Fortunately, Steam data is 
+well-reported, so I don't have to worry about bias there, but free price promotion reporting on Reddit could be biased to popular games, 
+so I'll have to be careful there (if I choose to use that). Steam and Epic Games are the only serious online game retailers, so making 
+inferences about game consumers and developers is only sensible on these websites. Steam's advantage is the fact that it's been around 
+longer, is more popular, and has easier access to text data (an API allows for it). It also has more integration with online games, which 
+has caused it (rather than other services) to be used in prior research, so it'd be easier to align my work with prior work by using 
+Steam.
+
